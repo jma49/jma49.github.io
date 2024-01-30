@@ -1,0 +1,149 @@
+/* Base styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Space Mono", monospace;
+    background: #000000; /* Pure black background */
+    color: #70F15E; /* Terminal green color for text */
+}
+
+/* Container styling */
+.container {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #000000; /* Black background */
+    text-align: center;
+    padding: 20px;
+    overflow: auto; 
+}
+
+/* Hero section styling */
+.hero h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 4em;
+    color: #70F15E; /* Green text color */
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #d0d0d0; /* Light grey text color */
+}
+
+/* Tagline styling */
+.tagline {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5em;
+    color: #70F15E; /* Green text color */
+    margin: 0.3em;
+    letter-spacing: -0.05em;
+}
+
+/* Cursor animation */
+.typing-cursor {
+    display: inline-block;
+    margin-left: 5px; /* Space between the text and cursor */
+    background-color: #70F15E; /* Cursor color */
+    width: 15px; /* Cursor width */
+    height: 0.8em; /* Cursor height */
+    animation: blink-animation 1s steps(2) infinite;
+}
+
+@keyframes blink-animation {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+/* Bio box styling */
+.bio-box {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid #3D7A33; /* Green border color */
+    margin-top: 20px;
+    background-color: #121826; /* Dark blue background */
+    max-width: 900px; /* Maximum width */
+    text-align: justify; /* Justified text for readability */
+    margin: auto; /* Center box */
+    overflow-wrap: break-word; /* Wrap text within the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Bio content styling */
+.bio-content {
+    border: 3px solid #8b8f8b; /* Light grey border color */
+    padding: 15px;
+    color: #70F15E; /* Green text color */
+    text-align: left;
+    overflow: hidden;
+    background-color: #121826; /* Dark blue background */
+    overflow-wrap: break-word;
+}
+
+/* Bio content paragraph styling */
+.bio-content p {
+    font-size: 1.2em;
+    color: #d0d0d0; /* Light grey text color */
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.6; 
+    text-indent: -1.5em; /* Text indent for the first line */
+    padding-left: 1.5em; /* Padding to align text after bullets */
+    margin-left: 2em; /* Left margin */
+    margin-right: 2em; /* Right margin */
+}
+
+/* Strong tag styling within bio content */
+.bio-content strong {
+    color: #F87272; /* Reddish color for strong tags */
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 768px) {
+    .bio-content p {
+        font-size: 1em; /* Smaller text on small screens */
+        /* Add further adjustments for small screens as necessary */
+    }
+    /* Other adjustments for small screens */
+}
+
+/* Link styling */
+a {
+    color: #4defdf; /* Green link color */
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+    text-decoration-color: transparent; /* No underline color initially */
+}
+
+/* Link hover effect */
+a:hover {
+    color: #70F15E; /* Color change on hover */
+    text-decoration-color: currentColor; /* Underline appears on hover */
+}
+
+/* LinkedIn icon styling */
+a[href*="linkedin.com"] {
+    color: #ffffff; /* Black icon color */
+    font-size: 2.5em; /* Icon size */
+    width: 1em; /* Width of the icon's clickable area */
+    height: 1em; /* Height of the icon's clickable area */
+    display: flex; /* Use flex layout to center content */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    padding: 0.5em; /* Padding around the icon */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+    transition: background-color 0.3s, color 0.3s; /* Transition for background and color changes */
+}
+
+a[href*="linkedin.com"]:hover i.fab {
+    color: #70F15E; /* Green icon color on hover */
+}
+
+a[href*="linkedin.com"] i.fab {
+    width: 100%; /* Use full width of parent anchor tag */
+    height: auto; /* Maintain aspect ratio */
+}
+
