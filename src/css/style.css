@@ -87,7 +87,7 @@ body, html {
 /* Bio content paragraph styling */
 .bio-content p {
     font-size: 1.2em;
-    color: #d0d0d0; /* Light grey text color */
+    color: #fffcfc; /* Light grey text color */
     word-wrap: break-word;
     hyphens: auto;
     line-height: 1.6; 
@@ -99,7 +99,7 @@ body, html {
 
 /* Strong tag styling within bio content */
 .bio-content strong {
-    color: #1b4dd6; /* Reddish color for strong tags */
+    color: #8a8a8a; /* Reddish color for strong tags */
 }
 
 /* Responsive design adjustments */
