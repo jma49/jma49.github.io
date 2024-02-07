@@ -62,10 +62,10 @@ body, html {
 /* Bio box styling */
 .bio-box {
     display: inline-block;
-    padding: 10px;
+    padding: 6px;
     border: 3px solid #3D7A33; /* Green border color */
     margin-top: 20px;
-    background-color: #121826; /* Dark blue background */
+    background-color: #3D7A33; /* Dark blue background */
     max-width: 900px; /* Maximum width */
     text-align: justify; /* Justified text for readability */
     margin: auto; /* Center box */
@@ -75,7 +75,7 @@ body, html {
 
 /* Bio content styling */
 .bio-content {
-    border: 3px solid #8b8f8b; /* Light grey border color */
+    border: 6px solid #8b8f8b; /* Light grey border color */
     padding: 15px;
     color: #70F15E; /* Green text color */
     text-align: left;
