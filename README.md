@@ -1,6 +1,7 @@
 <!-- Your title -->
 
 ## Hi, I'm Jincheng Ma, a Fullstack Developer and a Data Analyst📚.
+## This repository is for ITMD-541 lab1 
 
 <!-- Your badges
 You can use the website to generate badges: https://shields.io/
