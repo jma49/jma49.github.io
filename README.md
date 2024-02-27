@@ -24,7 +24,8 @@ You can use the website to generate badges: https://shields.io/
 - 💬 Ask me about anything, I am happy to help;
 - ⚡️ Fun-Fact: I have a degree in Material Science and Engineering;
 - 📫 How to reach me: jma49@hawk.iit.edu;
-- 📃 You can find my **RESUME** here:https://jma49.github.io
+- 📃 You can find my **Protafolio** here:https://jincheng-protafolio.vercel.app/
+- 📚 You can also take a brief look at my experience through this site: https://jma49.github.io/
 
 **Languages and Tools:**
 
